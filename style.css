@@ -1,0 +1,30 @@
+.viewer{
+    border: 1px solid ;
+    width: 500px;
+    flex-direction: column;
+    
+}
+
+.viewer_list{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-decoration-line: underline;
+}
+
+.viewer_image{
+    display: block;
+    width: 400px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+.viewer_list-element{
+    font-weight: bold;
+    cursor: pointer;
+}
+
